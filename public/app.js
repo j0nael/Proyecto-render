@@ -16,7 +16,7 @@ function agregarTarea() {
     let span = document.createElement("span");
     span.textContent = texto + " - " + hora;
 
-    // ✅ Marcar como completada (tachar)
+
     span.onclick = function () {
         span.style.textDecoration = 
             span.style.textDecoration === "line-through" 
@@ -24,14 +24,14 @@ function agregarTarea() {
             : "line-through";
     };
 
-    // 🗑️ Botón eliminar
+
     let btnEliminar = document.createElement("button");
     btnEliminar.textContent = "Eliminar";
     btnEliminar.onclick = function () {
         li.remove();
     };
 
-    // ✏️ Botón actualizar
+
     let btnEditar = document.createElement("button");
     btnEditar.textContent = "Actualizar";
     btnEditar.onclick = function () {
