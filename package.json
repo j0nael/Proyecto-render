@@ -1,0 +1,25 @@
+{
+  "name": "proyecto-render",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+     "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/j0nael/Proyecto-render.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/j0nael/Proyecto-render/issues"
+  },
+  "homepage": "https://github.com/j0nael/Proyecto-render#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
